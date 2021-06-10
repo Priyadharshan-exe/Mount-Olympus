@@ -1,0 +1,83 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(/product-bg.jpg);
+   background-size: cover;
+}
+
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:300px;
+    height: auto;
+    border-radius: 4px;
+    text-align: center;
+    margin:20px;
+    padding:20px;
+}
+
+.content-img{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width:300px;
+    height:300px;
+    background-size: cover;
+    background-position: center center;
+    border:1px solid white;
+    border-radius:20%;
+}
+
+.card:nth-child(1) .content-img{
+    background-image:url(./images/zeus-tshirt.jpg);
+}
+
+.card:nth-child(2) .content-img{
+    background-image:url(./images/apollo-mug.jpg);
+}
+
+.card:nth-child(3) .content-img{
+    background-image:url(./images/painting.jpg);
+}
+
+.card:nth-child(4) .content-img{
+    background-image:url(./images/books.jpg);
+}
+
+.card:nth-child(5) .content-img{
+    background-image:url(./images/collectibles2.jpg);
+}
+
+.card:nth-child(6) .content-img{
+    background-image:url(./images/keychains.jpg);
+}
+
+.content p{
+    text-align: center;
+    color:#fff;
+    font-family:verdana;
+    padding:20px;
+    font-size:1.5em;
+    letter-spacing:.2em;
+    text-transform: uppercase;
+}
+
+.content a{
+    text-decoration:none;
+    color: #fff;
+}
+.content a:hover{
+    color:red;
+}
+
